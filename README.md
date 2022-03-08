@@ -1,5 +1,5 @@
 # BMP-Steganography
-Static **BMPDecoder** class has two methods for encrypting and decrypting *.bmp* images using steganography
+Static **BMPCoder** class has two methods for encrypting and decrypting *.bmp* images using steganography
 ```C#
 byte[] Encode(byte[] image, byte[] message);
 byte[] Decode(byte[] image);
